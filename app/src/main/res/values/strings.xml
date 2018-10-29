@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">Transformer</string>
+
+    <!-- MainActivity -->
+    <string name="btn_create">Create</string>
+    <string name="btn_reset">Reset AllSpark</string>
+    <string name="btn_battle">Battle</string>
+    
+    <string name="txt_overall_rating">Overall Rating</string>
+
+    <!-- CreateActivity -->
+    <string name="txt_strength">Strength</string>
+    <string name="txt_intelligence">Intelligence</string>
+    <string name="txt_speed">Speed</string>
+    <string name="txt_endurance">Endurance</string>
+    <string name="txt_rank">Rank</string>
+    <string name="txt_courage">Courage</string>
+    <string name="txt_firepower">Firepower</string>
+    <string name="txt_skill">Skill</string>
+    <string name="txt_name">Name</string>
+    <string name="txt_team">Team</string>
+
+    <string-array name="team_array">
+        <item>Autobot</item>
+        <item>Decepticon</item>
+    </string-array>
+
+    <string name="txt_autobot">Autobot</string>
+    <string name="txt_decepticon">Decepticon</string>
+
+    <string name="btn_save">Save</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="btn_auto_fill">Auto Fill</string>
+
+    <!-- Alert Dialog -->
+    <string name="msg_delete">Do you want to destroy this transformer?</string>
+    <string name="msg_allspark_not_ready">AllSpark not ready!! Please create AllSpark at the previous page!!</string>
+    <string name="msg_fail_create_invalid_data">Please enter valid data in all fields before creating Transformer!!</string>
+    <string name="msg_fail_create">Fail to create Transformer!!</string>
+    <string name="msg_fail_edit">Fail to edit Transformer!!</string>
+    <string name="msg_fail_delete">Fail to delete Transformer!!</string>
+    <string name="msg_fail_retrieve">Fail to retrieve Transformers!!</string>
+    <string name="msg_autobot_won">Autobot has won the war!!</string>
+    <string name="msg_decepticon_won">Decepticon has won the war!!</string>
+    <string name="msg_tie">War is a tie!!</string>
+    <string name="msg_all_destroyed_decepticon">Special rule: boss face-off, all transformer destroyed!! Decepticon has won the war!!</string>
+    <string name="msg_all_destroyed_autobot">Special rule: boss face-off, all transformer destroyed!! Autobot has won the war!!</string>
+    <string name="msg_all_destroyed_tie">Special rule: boss face-off, all transformer destroyed!! War is a tie!!</string>
+    <string name="msg_btn_yes">Yes</string>
+    <string name="msg_btn_no">No</string>
+    <string name="msg_btn_ok">OK</string>
+
+</resources>

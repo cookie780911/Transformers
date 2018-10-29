@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CreateActivity">
+
+    <TableRow style="@style/CreateTableRow">
+
+        <Button
+            android:id="@+id/btn_create_or_edit"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/btn_create" />
+
+        <Button
+            android:id="@+id/btn_auto"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/btn_auto_fill" />
+
+        <Button
+            android:id="@+id/btn_cancel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/btn_cancel" />
+
+    </TableRow>
+
+    <TableRow style="@style/CreateTableRow">
+
+        <TextView
+            android:text="@string/txt_name"
+            style="@style/CreateTextViewStyle" />
+
+        <EditText
+            android:id="@+id/edt_name"
+            android:layout_width="50dp"
+            android:nextFocusDown="@+id/edt_strength"
+            android:inputType="text"
+            style="@style/CreateEditTextStyle" />
+
+    </TableRow>
+
+    <TableRow style="@style/CreateTableRow">
+
+        <TextView
+            android:text="@string/txt_strength"
+            style="@style/CreateTextViewStyle" />
+
+        <EditText
+            android:id="@+id/edt_strength"
+            android:layout_width="50dp"
+            android:nextFocusDown="@+id/edt_intelligence"
+            style="@style/CreateEditTextStyle" />
+
+    </TableRow>
+
+    <TableRow style="@style/CreateTableRow">
+
+        <TextView
+            android:text="@string/txt_intelligence"
+            style="@style/CreateTextViewStyle" />
+
+        <EditText
+            android:id="@+id/edt_intelligence"
+            android:layout_width="50dp"
+            android:nextFocusDown="@+id/edt_speed"
+            style="@style/CreateEditTextStyle" />
+
+    </TableRow>
+
+    <TableRow style="@style/CreateTableRow">
+
+        <TextView
+            android:text="@string/txt_speed"
+            style="@style/CreateTextViewStyle" />
+
+        <EditText
+            android:id="@+id/edt_speed"
+            android:layout_width="50dp"
+            android:nextFocusDown="@+id/edt_endurance"
+            style="@style/CreateEditTextStyle" />
+
+    </TableRow>
+
+    <TableRow style="@style/CreateTableRow">
+
+        <TextView
+            android:text="@string/txt_endurance"
+            style="@style/CreateTextViewStyle" />
+
+        <EditText
+            android:id="@+id/edt_endurance"
+            android:layout_width="50dp"
+            android:nextFocusDown="@+id/edt_rank"
+            style="@style/CreateEditTextStyle" />
+
+    </TableRow>
+
+    <TableRow style="@style/CreateTableRow">
+
+        <TextView
+            android:text="@string/txt_rank"
+            style="@style/CreateTextViewStyle" />
+
+        <EditText
+            android:id="@+id/edt_rank"
+            android:layout_width="50dp"
+            android:nextFocusDown="@+id/edt_courage"
+            style="@style/CreateEditTextStyle" />
+
+    </TableRow>
+
+    <TableRow style="@style/CreateTableRow">
+
+        <TextView
+            android:text="@string/txt_courage"
+            style="@style/CreateTextViewStyle" />
+
+        <EditText
+            android:id="@+id/edt_courage"
+            android:layout_width="50dp"
+            android:nextFocusDown="@+id/edt_firepower"
+            style="@style/CreateEditTextStyle" />
+
+    </TableRow>
+
+    <TableRow style="@style/CreateTableRow">
+
+        <TextView
+            android:text="@string/txt_firepower"
+            style="@style/CreateTextViewStyle" />
+
+        <EditText
+            android:id="@+id/edt_firepower"
+            android:layout_width="50dp"
+            android:nextFocusDown="@+id/edt_skill"
+            style="@style/CreateEditTextStyle" />
+
+    </TableRow>
+
+    <TableRow style="@style/CreateTableRow">
+
+        <TextView
+            android:text="@string/txt_skill"
+            style="@style/CreateTextViewStyle" />
+
+        <EditText
+            android:id="@+id/edt_skill"
+            android:layout_width="50dp"
+            android:nextFocusDown="@+id/spn_team"
+            style="@style/CreateEditTextStyle" />
+
+    </TableRow>
+
+    <TableRow style="@style/CreateTableRow">
+
+        <TextView
+            android:text="@string/txt_team"
+            style="@style/CreateTextViewStyle" />
+
+        <Spinner
+            android:id="@+id/spn_team"
+            android:layout_width="wrap_content"
+            style="@style/CreateEditTextStyle" />
+
+    </TableRow>
+
+</TableLayout >
